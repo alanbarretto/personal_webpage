@@ -1,9 +1,14 @@
 .grey-panel {
-	background-color: "grey";
+	background-color: grey;
 	height: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .blue-panel {
-	background-color: "blue";
+	background-color: rgb(7, 32, 159);
 	height: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
 }
