@@ -1,6 +1,7 @@
+
 .grey-panel {
-	background-color: grey;
-	height: 500px;
+	background-color: lightgrey;
+	height: 420px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -8,7 +9,20 @@
 .blue-panel {
 	background-color: rgb(7, 32, 159);
 	height: 500px;
+	height: 100%;
 	margin-top: 25px;
 	margin-bottom: 25px;
 
+}
+
+.borders, h2{
+	
+	border: 1px solid black;
+	
+	
+}
+
+.rightofpic, h2 {
+	height: 230px;
+	height: 33%;
 }
