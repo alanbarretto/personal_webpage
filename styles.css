@@ -1,28 +1,168 @@
+body{
+  font-family:'Open Sans', 'serif';
+  padding-top:0;
+  color:#808080
+  }
 
-.grey-panel {
-	background-color: lightgrey;
-	height: 420px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+#select {
+  margin: 0 30px;
 }
 
-.blue-panel {
-	background-color: rgb(7, 32, 159);
-	height: 500px;
-	height: 100%;
-	margin-top: 25px;
-	margin-bottom: 25px;
+
+.introbox {
+  height: 100px;
+  max-height: 100%;
+  border: 2px solid black;
+  margin: 5px;
+  
+}
+
+.introbox h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.introbox p {
+  text-align: center;
+}
+
+.ib-2 {
+  text-align: center;
+}
+
+.greybox {
+  background-color: #F8F8F8;
+  margin: 20p
+}
+
+
+.projectgreybox {
+  height: 600px;
+  max-height: 100%;
+  margin: 5px auto;
+}
+
+.experiencegreybox {
+  height: 830px;
+  max-height: 100%;
+  margin: 5px auto;
+}
+
+.projectbox {
+  border: 2px solid black;
+  height: 270px;
+  max-height: 100%;
+  border: 2px solid black;
 
 }
 
-.borders, h2{
-	
-	border: 1px solid black;
-	
-	
+.innerprojectbox {
+  height: 270px;
+  max-height: 100%;
+  width: 234px;
+  max-width: 100%;
+  border: 2px solid black;
+  margin: 0 auto;
+
 }
 
-.rightofpic, h2 {
-	height: 230px;
-	height: 33%;
+.imageprojectbox {
+  height: 234px;
+  max-height: 100%;
+  width: 234px;
+  max-width: 100%;
+  border: 2px solid black;
+
 }
+
+.titleprojectbox {
+  height: 30px;
+  max-height: 100%px;
+  width: 234px;
+  max-width: 100%;
+  border: 2px solid black;
+
+}
+
+.textprojectbox {
+  height: 234px;
+  max-height: 100%;
+  width: 800px;
+  max-width: 100%;
+  border: 2px solid black;
+
+}
+.skillsgreybox {
+  height: 325px;
+  max-height: 100%;
+}
+
+.blackbox {
+  background-color: black;
+}
+
+.panelbox {
+  height: 50px;
+  max-height: 100%;
+  background-color: #1398f2;
+  margin: 10px auto;
+}
+
+.panelboxtext {
+  height: 40px;
+  max-height: 100%;
+  width: 250px;
+  max-width: 100%;
+  color: white;
+  margin: 5px auto;
+  padding-top: 5px;
+
+}
+
+.picture {
+  background-color: black;
+  height: 325px;
+  max-height: 100%;
+  width: 260px;
+  width: 75%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+#alanpic {
+  height: 325px;
+  max-height: 100%;
+  border:.5rem solid #232426;
+  margin: 0 auto;
+  
+}
+
+.alanpic {
+  margin-left: 10px;
+}
+
+.rightofpic {
+  height: 300px;
+  max-height: 100%;
+  background-color: yellow;
+}
+
+.fab {
+  margin: 5px 10px;
+
+}
+
+.contactbox {
+  border: 2px solid black;
+  width: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.fa-ul li {
+  margin: 10px auto;
+}
+
+
+
+
