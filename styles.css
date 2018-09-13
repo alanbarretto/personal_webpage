@@ -4,13 +4,22 @@ body{
   color:#808080
   }
 
+h1, p {
+  color: white;
+}
+
 #select {
   margin: 0 30px;
 }
 
-
+.linebreak {
+  background-color: #ff6430;
+  height: 3px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .introbox {
-  height: 100px;
+  min-height: 100px;
   max-height: 100%;
   border: 2px solid black;
   margin: 5px;
@@ -35,12 +44,14 @@ body{
   margin: 20p
 }
 
+#skillstext {
+  width: 80px;
+  max-width: 100%;
+  margin: 0 auto;
 
-.projectgreybox {
-  height: 600px;
-  max-height: 100%;
-  margin: 5px auto;
 }
+
+
 
 .experiencegreybox {
   height: 830px;
@@ -48,100 +59,76 @@ body{
   margin: 5px auto;
 }
 
-.projectbox {
-  border: 2px solid black;
-  height: 270px;
-  max-height: 100%;
-  border: 2px solid black;
 
-}
 
-.innerprojectbox {
-  height: 270px;
-  max-height: 100%;
-  width: 234px;
-  max-width: 100%;
-  border: 2px solid black;
-  margin: 0 auto;
 
-}
 
-.imageprojectbox {
+.imageworkbox {
   height: 234px;
   max-height: 100%;
   width: 234px;
   max-width: 100%;
   border: 2px solid black;
+  margin: 10px 0;
 
 }
 
-.titleprojectbox {
-  height: 30px;
-  max-height: 100%px;
-  width: 234px;
-  max-width: 100%;
-  border: 2px solid black;
 
-}
 
-.textprojectbox {
+
+
+.textworkbox {
   height: 234px;
   max-height: 100%;
   width: 800px;
   max-width: 100%;
   border: 2px solid black;
+  margin: 12px 0;
 
 }
 .skillsgreybox {
-  height: 325px;
+  height: 525px;
   max-height: 100%;
 }
 
 .blackbox {
-  background-color: black;
+  background-color: #3330ff;
 }
 
-.panelbox {
-  height: 50px;
+
+
+
+
+.picture {
+  background-color: #3330ff;
+  min-height: 185px;
   max-height: 100%;
-  background-color: #1398f2;
+  max-width: 100% 
+  object-fit: contain;
   margin: 10px auto;
 }
 
-.panelboxtext {
-  height: 40px;
-  max-height: 100%;
-  width: 250px;
-  max-width: 100%;
-  color: white;
-  margin: 5px auto;
-  padding-top: 5px;
-
-}
-
-.picture {
-  background-color: black;
-  height: 325px;
-  max-height: 100%;
-  width: 260px;
-  width: 75%;
-  object-fit: contain;
-  margin: 0 auto;
-}
-
 #alanpic {
-  height: 325px;
+  height: 180px;
   max-height: 100%;
+  width: 180px;
+  max-width: 100%;
   border:.5rem solid #232426;
   margin: 0 auto;
   
 }
 
 .alanpic {
-  margin-left: 10px;
+  width: 190px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.rightofpic {
+.img-circle {
+  border-radius: 50%;
+}
+
+.bottomofpic {
   height: 300px;
   max-height: 100%;
   background-color: yellow;
@@ -163,6 +150,31 @@ body{
   margin: 10px auto;
 }
 
+.fa-front {
+  margin: 0 50px;
+}
 
+.skillsbox {
+  height: 150px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 10px 0;
+}
 
+.innerskillsbox {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
 
+}
+
+.innerskillsbox2 {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.hero {
+  margin: 20px 0;
+}
