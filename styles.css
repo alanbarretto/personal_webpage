@@ -4,9 +4,7 @@ body{
   color:#808080
   }
 
-h1, p {
-  color: white;
-}
+
 
 #select {
   margin: 0 30px;
@@ -29,10 +27,12 @@ h1, p {
 .introbox h1 {
   text-align: center;
   margin: 1rem;
+  color: white;
 }
 
 .introbox p {
   text-align: center;
+  color: white;
 }
 
 .ib-2 {
@@ -44,6 +44,46 @@ h1, p {
   margin: 20p
 }
 
+.projectbox {
+  min-height: 500px;
+  max-height: 100%;
+
+}
+
+.project-title {
+
+}
+
+.firstprojectbox {
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+.secondprojectbox {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.projectpicture {
+  min-width: 100px;
+
+  border: 2px solid black;
+}
+
+.innerprojectpicture {
+  border: 2px solid black;
+  min-width: 200px;
+  margin: 0 auto;
+}
+
+.project-textbox {
+  border: 2px solid black;
+}
+
+.innerproject-textbox {
+  border: 2px solid black;
+}
+
 #skillstext {
   width: 80px;
   max-width: 100%;
@@ -51,6 +91,18 @@ h1, p {
 
 }
 
+.iconbox {
+  width: 50px;
+  max-width: 100%;
+  margin: 10px auto;
+
+}
+
+.icon-text {
+  border: 2px solid black;
+  margin: 10px auto;
+  text-align: center;
+}
 
 
 .experiencegreybox {
@@ -92,7 +144,7 @@ h1, p {
 }
 
 .blackbox {
-  background-color: #3330ff;
+  background-color: #0b02b3;
 }
 
 
@@ -100,7 +152,7 @@ h1, p {
 
 
 .picture {
-  background-color: #3330ff;
+  background-color: #0b02b3;
   min-height: 185px;
   max-height: 100%;
   max-width: 100% 
@@ -131,7 +183,6 @@ h1, p {
 .bottomofpic {
   height: 300px;
   max-height: 100%;
-  background-color: yellow;
 }
 
 .fab {
