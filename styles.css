@@ -16,10 +16,52 @@ body{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+.blackbox {
+  background-image: url(image/stars.jpg)
+}
+
+.bottomofpic {
+  height: 300px;
+  max-height: 100%;
+}
+
+.hero {
+  margin: 20px 0;
+}
+
+.greybox {
+  background-color: #F8F8F8;
+  margin: 20px
+}
+
+.picture {
+  min-height: 185px;
+  max-height: 100%;
+  max-width: 100% 
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+#alanpic {
+  height: 180px;
+  max-height: 100%;
+  width: 180px;
+  max-width: 100%;
+  border:.5rem solid #232426;
+  margin: 0 auto;
+  
+}
+
+.alanpic {
+  width: 190px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .introbox {
   min-height: 100px;
   max-height: 100%;
-  border: 2px solid black;
   margin: 5px;
   
 }
@@ -39,10 +81,13 @@ body{
   text-align: center;
 }
 
-.greybox {
-  background-color: #F8F8F8;
-  margin: 20p
+.contactbox {
+  width: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+  color: white;
 }
+
 
 .projectbox {
   min-height: 500px;
@@ -143,59 +188,26 @@ body{
   max-height: 100%;
 }
 
-.blackbox {
-  background-color: #0b02b3;
-}
 
 
 
 
 
-.picture {
-  background-color: #0b02b3;
-  min-height: 185px;
-  max-height: 100%;
-  max-width: 100% 
-  object-fit: contain;
-  margin: 10px auto;
-}
 
-#alanpic {
-  height: 180px;
-  max-height: 100%;
-  width: 180px;
-  max-width: 100%;
-  border:.5rem solid #232426;
-  margin: 0 auto;
-  
-}
 
-.alanpic {
-  width: 190px;
-  max-width: 100%;
-  margin: 0 auto;
-}
 
 .img-circle {
   border-radius: 50%;
 }
 
-.bottomofpic {
-  height: 300px;
-  max-height: 100%;
-}
+
 
 .fab {
   margin: 5px 10px;
 
 }
 
-.contactbox {
-  border: 2px solid black;
-  width: 230px;
-  max-width: 100%;
-  margin: 0 auto;
-}
+
 
 .fa-ul li {
   margin: 10px auto;
@@ -226,6 +238,3 @@ body{
 
 }
 
-.hero {
-  margin: 20px 0;
-}
