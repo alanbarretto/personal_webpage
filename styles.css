@@ -18,7 +18,7 @@ body{
 }
 
 .blackbox {
-  background-image: url(image/stars.jpg)
+  background-image: url(image/blue4.jpg)
 }
 
 .bottomofpic {
@@ -88,6 +88,7 @@ body{
   color: white;
 }
 
+/* Projects Section */
 
 .projectbox {
   min-height: 500px;
@@ -104,10 +105,7 @@ body{
   margin: 10px auto;
 }
 
-.secondprojectbox {
-  display: inline-block;
-  border: 2px solid black;
-}
+
 
 .projectpicture {
   min-width: 100px;
@@ -129,6 +127,8 @@ body{
   border: 2px solid black;
 }
 
+
+/* Skills Section */
 #skillstext {
   width: 80px;
   max-width: 100%;
@@ -149,15 +149,25 @@ body{
   text-align: center;
 }
 
+/* Experience Section */
+
+.rowbox {
+  margin: 20px 0;
+}
 
 .experiencegreybox {
-  height: 830px;
+  min-height: 830px;
   max-height: 100%;
   margin: 5px auto;
 }
 
+.experiencebox {
+  border: 2px solid black;
+}
 
-
+.innerexp-box {
+  border: 2px solid black;
+}
 
 
 .imageworkbox {
@@ -238,3 +248,9 @@ body{
 
 }
 
+/* Personal Interests Section */
+
+.interestbox {
+  min-height: 500px;
+  max-height: 100%;
+}
