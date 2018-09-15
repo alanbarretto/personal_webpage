@@ -1,9 +1,8 @@
 body{
   font-family:'Open Sans', 'serif';
   padding-top:0;
-  color:#808080
+  background-color: grey;
   }
-
 
 
 #select {
@@ -17,8 +16,15 @@ body{
   margin-bottom: 25px;
 }
 
+.workbreak {
+  background-color: grey;
+  height: 1px;
+  margin: 10px auto;
+  max-width: 87%;
+}
+
 .blackbox {
-  background-image: url(image/blue4.jpg)
+  background-image: url(images/blue4.jpg)
 }
 
 .bottomofpic {
@@ -144,7 +150,7 @@ body{
 }
 
 .icon-text {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 10px auto;
   text-align: center;
 }
@@ -170,13 +176,13 @@ body{
 }
 
 
-.imageworkbox {
+.imagework-box {
   height: 234px;
   max-height: 100%;
   width: 234px;
   max-width: 100%;
   border: 2px solid black;
-  margin: 10px 0;
+  margin: 10px auto;
 
 }
 
@@ -194,12 +200,21 @@ body{
 
 }
 .skillsgreybox {
-  height: 525px;
+  min-height: 525px;
   max-height: 100%;
 }
 
 
+.worktitle {
+  margin: 5px;
+  border: 2px solid black;
 
+}
+
+.workdescription {
+  margin: 10px 5px;
+  border: 2px solid black;
+}
 
 
 
@@ -224,13 +239,13 @@ body{
 }
 
 .fa-front {
-  margin: 0 50px;
+  margin: 0 auto;
 }
 
 .skillsbox {
   height: 150px;
   width: 100px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 10px 0;
 }
 
