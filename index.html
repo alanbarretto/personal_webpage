@@ -3,6 +3,7 @@
 	<head>
 
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<title>Alan Barretto</title>
@@ -11,9 +12,10 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 		<!-- Custom fonts for this template -->
-	    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-	    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    
+    	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:200,400" >
+    	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+
 		<!-- Custom Styles for this webpage -->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<!-- Devicons -->
@@ -30,20 +32,26 @@
 
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #ffcb30;">
 		<div class="container">
-		<a class="navbar-brand" href="#about" id="select">Francis Alan Barretto</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#about" id="select">About <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#skills" id="select">Skills</a>
-				<a class="nav-item nav-link" href="#projects" id="select">Projects</a>
-				<a class="nav-item nav-link" href="#history" id="select">Work History</a>
-				<a class="nav-item nav-link" href="#interests" id="select">Personal Interests</a>
+			<div class="nav-container">
+				<div class="eagle-box">
+					<a class="navbar-brand" href="#about" id="eagle">
+						<img src="images/bird.png">
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link active" href="#about" id="select">About <span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link" href="#skills" id="select">Skills</a>
+						<a class="nav-item nav-link" href="#projects" id="select">Projects</a>
+						<a class="nav-item nav-link" href="#history" id="select">Work History</a>
+						<a class="nav-item nav-link" href="#interests" id="select">Personal Interests</a>
+					</div>
+				</div>
 			</div>
-		</div>
-		</div>
+	</div>
 	</nav>
 		<div class="container backdrop">
 			<section id="about">
@@ -51,8 +59,8 @@
 					<div class="row">
 						<div class="col-12 blackbox">
 							<div class="introbox ib-1">
-									<h1 class="mb-0">Francis Alan <span style="">Barretto</span></h1>
-									<p>Full Stack Web Developer</p>
+									<h1 class="mb-0" id="fullname">Francis Alan Barretto</h1>
+									<h5>Full Stack Web Developer</h5>
 
 							</div>
 						
@@ -82,6 +90,7 @@
 					</div>
 
 				</section>
+				<!-- Skills Section -->
 				<section id="skills">
 					<div class="greybox skillsgreybox">
 						<div class="project-title">
@@ -171,12 +180,6 @@
 										<i class="devicon-postgresql-plain-wordmark fa-3x fa-front"></i>
 									</div>
 								</div>
-								
-								
-							
-							
-								
-
 								<div class="col-2 skillsbox">
 									<div class="icon-text">
 										<h6>Linux</h6>
@@ -203,6 +206,8 @@
 								</div>
 						</div>
 				</section>
+
+				<!-- Projects Section -->
 				<section id="projects">
 					<div class="greybox projectbox" >
 						<div class="project-title">
@@ -224,6 +229,7 @@
 											<div class="innerproject-textbox">
 												<h6>Neighborhood Map</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
 												<p>A single page responsive application featuring a map of California, highlighting
 												the nine national parks. Built with Google Maps API, Javascript, and Knockout.js.</p>
@@ -238,6 +244,7 @@
 											<div class="innerproject-textbox">
 												<h6>Item Catalog App</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
 												<p>A fun web app where users can log in, post their used cars for sale, and manage their content.
 													Built with Python and Flask.</p>
@@ -257,8 +264,9 @@
 											<div class="innerproject-textbox">
 												<h6>Multi-User Blog App</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
-												<p>Users can create an account with a password, then post blogs, like others' posts, 
+												<p>Users can create an account with a password, then post blogs, "like" others' posts, 
 												    and delete their own content. Built with Python and Google App Engine.</p>
 											</div>
 										</div>
@@ -271,6 +279,7 @@
 											<div class="innerproject-textbox">
 												<h6>Swiss Tournament Results</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
 												<p>A Python module that uses the PostgreSQL database to keep track of 
 													players and matches in a Swiss style game tournament.</p>
@@ -290,6 +299,7 @@
 											<div class="innerproject-textbox">
 												<h6>Movie Trailer Website</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
 												<p>A static web page built with Python allowing 
 										visitors to browse their stored movies and watch the trailers.</p>
@@ -304,6 +314,7 @@
 											<div class="innerproject-textbox">
 												<h6>Linux Server Configuration Project</h6>
 											</div>
+											<div class="projectbreak"></div>
 											<div class="innerproject-textbox">
 												<p>Configure a baseline Linux server and secure it from attack vectors.
 												 Install and configure a database server, and deploy an existing web app onto it.</p>
@@ -312,11 +323,14 @@
 									</div>
 							</div>
 				</section>
+
+				<!-- Experience Section -->
 				<section id="experience">
 						
 					<div class="greybox experiencegreybox">
-						<div class="title-panel">
-							<div class="title"><h3>Work Experience</h3></div>
+						<div class="project-title">
+							<div class="title-text">
+								<h3>Work Experience</h3></div>
 							
 						</div>
 						<div class="linebreak"></div>
@@ -398,6 +412,8 @@
 					</div>
 								
 				</section>
+
+				<!-- Personal Interests Section -->
 				<section id="interests">
 					
 
