@@ -34,7 +34,7 @@ body{
 
 #fullname {
   font-size: 4em;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
 
 }
@@ -42,7 +42,7 @@ body{
 .linebreak {
   background-color: black;
   height: 3px;
-  margin: 10px;
+  margin: 0 10px;
   max-width: 95%;
 }
 
@@ -109,7 +109,7 @@ body{
   
 }
 
-.introbox h1, h5{
+.introbox h1, .introbox h5{
   text-align: center;
   margin: 1rem;
   color: white;
@@ -141,7 +141,7 @@ body{
 }
 
 .project-title {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
 .firstprojectbox {
@@ -178,6 +178,7 @@ body{
   width: 80px;
   max-width: 100%;
   margin: 0 auto;
+  border: 2px solid black;
 
 }
 
@@ -185,6 +186,8 @@ body{
   min-width: 50px;
   max-width: 100%;
   margin: 10px auto;
+  /*border: 2px solid black;*/
+  text-align: center;
 
 }
 
@@ -230,7 +233,7 @@ body{
 
 
 .textworkbox {
-  height: 234px;
+  height: 250px;
   max-height: 100%;
   width: 800px;
   max-width: 100%;
@@ -239,7 +242,7 @@ body{
 
 }
 .skillsgreybox {
-  min-height: 525px;
+  min-height: 425px;
   max-height: 100%;
 }
 
@@ -247,19 +250,33 @@ body{
 .worktitle {
   margin: 5px;
   border: 2px solid black;
+  height: 100px;
 
 }
 
 .workdescription {
   margin: 10px 5px;
   border: 2px solid black;
+  height: 125px;
+  overflow: scroll;
+  text-indent: 10%;
+  background-color: lightblue;
+
 }
+
 
 .title-text {
-  margin: 10px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
 }
 
+.title-text h3 {
+  margin: 10px 40px;
+  padding-top: 10px;
+}
+
+.nextbox {
+  margin: 20px 10px 0 10px;
+}
 
 
 
@@ -286,8 +303,8 @@ body{
 }
 
 .skillsbox {
-  height: 150px;
-  width: 100px;
+  height: 120px;
+  width: 80px;
   /* border: 2px solid black; */
   margin: 10px 0;
 }
@@ -311,4 +328,8 @@ body{
 .interestbox {
   min-height: 500px;
   max-height: 100%;
+}
+
+.footer {
+  background-color: blue;
 }
