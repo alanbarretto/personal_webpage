@@ -333,3 +333,34 @@ body{
 .footer {
   background-color: blue;
 }
+
+.educationbox {
+  min-height: 300px;
+  max-height: 100%;
+  margin: 5px auto;
+}
+
+.ed-pic {
+  height: 100px;
+  max-height: 100%;
+  border: 2px solid black;
+}
+
+.ed-pic img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.schoologo {
+  height: 100px;
+  width: 100px;
+  max-width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.ed-head {
+  height: 200px;
+  border: 2px solid black;
+}
