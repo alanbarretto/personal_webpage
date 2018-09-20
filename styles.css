@@ -1,7 +1,7 @@
 body{
   font-family:"Work Sans", "sans-serif";
   padding-top:0;
-  background-color: grey;
+  background-color: #e1e2e2;
   }
 .eagle-box {
   
@@ -33,18 +33,21 @@ body{
 }
 
 #fullname {
+  font-family: "Work Sans";
   font-size: 4em;
   font-weight: 400;
   text-transform: uppercase;
+  color: #ffcb30;
 
 }
 
 .linebreak {
-  background-color: black;
+  background-color: #001A5C;
   height: 3px;
   margin: 0 10px;
   max-width: 95%;
 }
+
 
 .workbreak {
   background-color: grey;
@@ -60,22 +63,21 @@ body{
   max-width: 80%;
 }
 
-.blackbox {
-  background-image: url(images/blue4.jpg)
-}
 
 .bottomofpic {
-  height: 300px;
+  height: 200px;
   max-height: 100%;
+  border: 2px solid black;
 }
 
 .hero {
-  margin: 20px 0;
+  margin: 5px auto;
+  background-image: url(images/blue4.jpg);
 }
 
 .greybox {
   background-color: #F8F8F8;
-  margin: 20px
+  margin: 5px auto;
 }
 
 .picture {
@@ -107,6 +109,7 @@ body{
   max-height: 100%;
   margin: 5px;
   
+  
 }
 
 .introbox h1, .introbox h5{
@@ -123,13 +126,24 @@ body{
 
 .ib-2 {
   text-align: center;
+  min-height: 50px;
+  max-height: 100%;
+  margin: 0;
+  padding-top: 0;
+
 }
 
 .contactbox {
   width: 230px;
   max-width: 100%;
   margin: 0 auto;
-  color: white;
+  color: #ffcb30;
+  border: 2px solid black;
+}
+
+.ib-3 {
+  color: #ffcb30;
+  border: 2px solid black;
 }
 
 /* Projects Section */
@@ -137,6 +151,7 @@ body{
 .projectbox {
   min-height: 500px;
   max-height: 100%;
+  margin: 5px auto;
 
 }
 
@@ -172,6 +187,9 @@ body{
   margin: 5px;
 }
 
+.innerproject-textbox p {
+  font-size: 14px;
+}
 
 /* Skills Section */
 #skillstext {
@@ -244,6 +262,7 @@ body{
 .skillsgreybox {
   min-height: 425px;
   max-height: 100%;
+  margin: 5px auto;
 }
 
 
@@ -283,6 +302,7 @@ body{
 
 .img-circle {
   border-radius: 50%;
+  border: 2px solid #fe7f2d;
 }
 
 
