@@ -155,7 +155,7 @@ body{
   min-height: 575px;
   max-height: 100%;
   margin: 30px auto;
-  padding: 10px;
+  padding: 5px;
 
 }
 
@@ -230,17 +230,18 @@ body{
   min-height: 830px;
   max-height: 100%;
   margin: 5px auto;
-  padding: 10px;
+  padding: 5px;
   
 }
 
 .experiencebox {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   background-color: #86BBD8;
 }
 
 .innerexp-box {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+  margin: 20px auto;
 }
 
 
@@ -249,7 +250,7 @@ body{
   max-height: 100%;
   width: 234px;
   max-width: 100%;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   margin: 10px auto;
 
 }
@@ -263,7 +264,7 @@ body{
   max-height: 100%;
   width: 800px;
   max-width: 100%;
-  border: 2px solid black;
+  border: 2px solid #001A5C;
   margin: 12px 0;
 
 }
@@ -275,16 +276,22 @@ body{
 
 
 .worktitle {
+  padding: 5px;
   margin: 5px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   height: 100px;
   background-color: white;
 
 }
 
+.worktitle h5, p {
+  margin: 5px;
+}
+
 .workdescription {
   margin: 10px 5px;
-  border: 2px solid black;
+  padding: 10px;
+  /*border: 2px solid black;*/
   height: 125px;
   overflow: scroll;
   text-indent: 10%;
@@ -366,7 +373,8 @@ body{
 .educationbox {
   min-height: 300px;
   max-height: 100%;
-  margin: 5px auto;
+  margin: 30px auto;
+  padding: 3px;
 }
 
 .ed-pic {
@@ -392,4 +400,8 @@ body{
 .ed-head {
   height: 200px;
   border: 2px solid black;
+  padding: 10px;
+}
+.ed-head h5 {
+  text-align: center;
 }
