@@ -18,13 +18,13 @@ body{
 }
 
 #navbarNavAltMarkup {
-  width: 800px;
+  width: 1000px;
   margin: 10px auto;
   
 }
 .nav-container {
   margin: 0 auto;
-  width: 1000px;
+  width: 1100px;
   display: inline-block;
 }
 
@@ -80,7 +80,7 @@ body{
 
 .greybox {
   background-color: #F8F8F8;
-  margin: 5px auto;
+  margin: 30px auto;
 }
 
 .picture {
@@ -230,10 +230,13 @@ body{
   min-height: 830px;
   max-height: 100%;
   margin: 5px auto;
+  padding: 10px;
+  
 }
 
 .experiencebox {
   border: 2px solid black;
+  background-color: #86BBD8;
 }
 
 .innerexp-box {
@@ -275,6 +278,7 @@ body{
   margin: 5px;
   border: 2px solid black;
   height: 100px;
+  background-color: white;
 
 }
 
@@ -284,7 +288,7 @@ body{
   height: 125px;
   overflow: scroll;
   text-indent: 10%;
-  background-color: lightblue;
+  background-color: white;
 
 }
 
