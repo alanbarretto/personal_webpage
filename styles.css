@@ -405,3 +405,10 @@ body{
 .ed-head h5 {
   text-align: center;
 }
+
+.school-linebreak {
+  background-color: #001A5C;
+  height: 1px;
+  margin: 0 auto;
+  max-width: 60%;
+}
