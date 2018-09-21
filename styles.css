@@ -48,6 +48,9 @@ body{
   max-width: 95%;
 }
 
+.proj-rowbox {
+  margin: 10px 5px;
+}
 
 .workbreak {
   background-color: grey;
@@ -149,7 +152,7 @@ body{
 /* Projects Section */
 
 .projectbox {
-  min-height: 500px;
+  min-height: 575px;
   max-height: 100%;
   margin: 5px auto;
 
@@ -217,7 +220,7 @@ body{
 
 /* Experience Section */
 
-.rowbox {
+.exp-rowbox {
   margin: 20px 0;
 }
 
