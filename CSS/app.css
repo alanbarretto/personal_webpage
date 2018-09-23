@@ -1,0 +1,419 @@
+body{
+  font-family:"Work Sans", "sans-serif";
+  padding-top:0;
+  background-color: #e1e2e2;
+  }
+.eagle-box {
+  
+  width: 60px;
+  max-width: 100%;
+  margin: 0;
+  float: left;
+
+
+}
+
+#eagle {
+  margin: 0 auto;
+}
+
+#navbarNavAltMarkup {
+  width: 1000px;
+  margin: 10px auto;
+  
+}
+.nav-container {
+  margin: 0 auto;
+  width: 1100px;
+  display: inline-block;
+}
+
+#select {
+  margin: 0 30px;
+}
+
+#fullname {
+  font-family: "Work Sans";
+  font-size: 4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffcb30;
+
+}
+
+.linebreak {
+  background-color: #001A5C;
+  height: 3px;
+  margin: 0 10px;
+  max-width: 95%;
+}
+
+.proj-rowbox {
+  margin: 20px;
+}
+
+.workbreak {
+  background-color: grey;
+  height: 1px;
+  margin: 10px auto;
+  max-width: 87%;
+}
+
+.projectbreak {
+  background-color: grey;
+  height: 1px;
+  margin: 5px 0;
+  max-width: 80%;
+}
+
+
+.bottomofpic {
+  height: 200px;
+  max-height: 100%;
+  border: 2px solid black;
+}
+
+.hero {
+  margin: 5px auto;
+  background-image: url(images/blue4.jpg);
+}
+
+.greybox {
+  background-color: #F8F8F8;
+  margin: 30px auto;
+}
+
+.picture {
+  min-height: 185px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+#alanpic {
+  height: 180px;
+  max-height: 100%;
+  width: 180px;
+  max-width: 100%;
+  border:.5rem solid #232426;
+  margin: 0 auto;
+  
+}
+
+.alanpic {
+  width: 190px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.introbox {
+  min-height: 100px;
+  max-height: 100%;
+  margin: 5px;
+  
+  
+}
+
+.introbox h1, .introbox h5{
+  text-align: center;
+  margin: 1rem;
+  color: white;
+}
+
+.introbox p {
+  text-align: center;
+  color: white;
+}
+
+
+.ib-2 {
+  text-align: center;
+  min-height: 50px;
+  max-height: 100%;
+  margin: 0;
+  padding-top: 0;
+
+}
+
+.contactbox {
+  width: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+  color: #ffcb30;
+  border: 2px solid black;
+}
+
+.ib-3 {
+  color: #ffcb30;
+  border: 2px solid black;
+}
+
+/* Projects Section */
+
+.projectbox {
+  min-height: 575px;
+  max-height: 100%;
+  margin: 30px auto;
+  padding: 5px;
+
+}
+
+.project-title {
+  /*border: 2px solid black;*/
+}
+
+.firstprojectbox {
+  /*border: 2px solid black;*/
+  margin: 10px auto;
+}
+
+
+
+.projectpicture {
+  min-width: 100px;
+
+  /*border: 2px solid black;*/
+}
+
+.innerprojectpicture {
+  /*border: 2px solid black;*/
+  min-width: 200px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.project-textbox {
+  /*border: 2px solid black;*/
+}
+
+.innerproject-textbox {
+  /*border: 2px solid black;*/
+  margin: 5px;
+}
+
+.innerproject-textbox p {
+  font-size: 14px;
+}
+
+/* Skills Section */
+#skillstext {
+  width: 80px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid black;
+
+}
+
+.iconbox {
+  min-width: 50px;
+  max-width: 100%;
+  margin: 10px auto;
+  /*border: 2px solid black;*/
+  text-align: center;
+
+}
+
+.icon-text {
+  /* border: 2px solid black; */
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Experience Section */
+
+.exp-rowbox {
+  margin: 20px 0;
+}
+
+.experiencegreybox {
+  min-height: 830px;
+  max-height: 100%;
+  margin: 5px auto;
+  padding: 5px;
+  
+}
+
+.experiencebox {
+  /*border: 2px solid black;*/
+  background-color: #86BBD8;
+}
+
+.innerexp-box {
+  /*border: 2px solid black;*/
+  margin: 20px auto;
+}
+
+
+.imagework-box {
+  height: 234px;
+  max-height: 100%;
+  width: 234px;
+  max-width: 100%;
+  /*border: 2px solid black;*/
+  margin: 10px auto;
+
+}
+
+
+
+
+
+.textworkbox {
+  height: 250px;
+  max-height: 100%;
+  width: 800px;
+  max-width: 100%;
+  border: 2px solid #001A5C;
+  margin: 12px 0;
+
+}
+.skillsgreybox {
+  min-height: 425px;
+  max-height: 100%;
+  margin: 5px auto;
+}
+
+
+.worktitle {
+  padding: 5px;
+  margin: 5px;
+  /*border: 2px solid black;*/
+  height: 100px;
+  background-color: white;
+
+}
+
+.worktitle h5, p {
+  margin: 5px;
+}
+
+.workdescription {
+  margin: 10px 5px;
+  padding: 10px;
+  /*border: 2px solid black;*/
+  height: 125px;
+  overflow: scroll;
+  text-indent: 10%;
+  background-color: white;
+
+}
+
+
+.title-text {
+  /*border: 2px solid black;*/
+}
+
+.title-text h3 {
+  margin: 10px 40px;
+  padding-top: 10px;
+}
+
+.nextbox {
+  margin: 20px 10px 0 10px;
+}
+
+
+
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid #fe7f2d;
+}
+
+
+
+.fab {
+  margin: 5px 10px;
+
+}
+
+
+
+.fa-ul li {
+  margin: 10px auto;
+}
+
+.fa-front {
+  margin: 0 auto;
+}
+
+.skillsbox {
+  height: 120px;
+  width: 80px;
+  /* border: 2px solid black; */
+  margin: 10px 0;
+}
+
+.innerskillsbox {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.innerskillsbox2 {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+/* Personal Interests Section */
+
+.interestbox {
+  min-height: 500px;
+  max-height: 100%;
+}
+
+.footer {
+  background-color: blue;
+}
+
+.educationbox {
+  min-height: 300px;
+  max-height: 100%;
+  margin: 30px auto;
+  padding: 3px;
+}
+
+.ed-pic {
+  height: 100px;
+  max-height: 100%;
+  /*border: 2px solid black;*/
+}
+
+.ed-pic img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.schoologo {
+  height: 100px;
+  width: 100px;
+  max-width: 50%;
+  margin: 0 auto;
+  /*border: 2px solid black;*/
+}
+
+.ed-head {
+  height: 200px;
+  /*border: 2px solid black;*/
+  padding: 10px;
+}
+.ed-head h5 {
+  text-align: center;
+}
+
+.school-linebreak {
+  background-color: #001A5C;
+  height: 1px;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+.school-data {
+  max-width: 250px;
+  margin: 0 auto;
+}
