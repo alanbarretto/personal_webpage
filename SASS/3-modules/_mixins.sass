@@ -1,1 +1,19 @@
 /* Mixins go here */
+
+@mixin for-phone-only
+	@media (max-width: 576px)
+		@content
+
+@mixin for-tablet-portrait-up
+	@media (min-width: 577px) and (max-width: 768px)
+		@content
+
+@mixin for-tablet-landscape-up
+	@media (min-width: 900px) and (max-width: 1199px)
+		@content
+
+@mixin for-desktop-up
+	@media (min-width: 1200px)
+		@content
+
+
