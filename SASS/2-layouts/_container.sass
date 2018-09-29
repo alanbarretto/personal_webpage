@@ -1,14 +1,10 @@
 @import "3-modules/mixins"
 
 
-.container
-	@include for-phone-only
-		margin: 0
-		padding: 0
 
 
 .greybox
-	background-color: #F8F8F8
+	background-color: #EFEFEF
 	margin: 30px auto
 
 	@include for-phone-only
@@ -16,8 +12,14 @@
 		width: 100%
 
 .hero
-	margin: 30px auto
-	background-image: url(../images/blue4.jpg)
+	margin: 30px 0
+	/*border: 2px solid black*/
+	min-height: 550px
+	max-height: 100%
+	width: 100%
+	background-color: #2D79E6
+
+
 
 .introbox
 	min-height: 100px
@@ -33,7 +35,9 @@
 		color: white
 
 
-
+.firstprojectbox
+	padding-left: 15px
+	padding-right: 15px
 
 .proj-rowbox 
 	margin: 20px
@@ -68,6 +72,7 @@
 	color: #ffcb30
 	width: 70%
 	margin: 10px auto
+	padding-bottom: 20px
 	/*border: 2px solid black*/
 	line-height: 1.6
 
@@ -89,7 +94,7 @@
 	min-height: 575px
 	max-height: 100%
 	margin: 30px auto
-	padding: 5px
+	padding: 20px
 
 .project-title 
 	/*border: 2px solid black*/
@@ -98,19 +103,24 @@
 .firstprojectbox 
 	/*border: 2px solid black*/
 	margin: 10px auto
+	padding-left: 20px
+	padding-right: 20px
 
 .projectpicture 
 	min-width: 100px
 	/*border: 2px solid black*/
 
-.innerprojectpicture 
+.innerprojectpicture
 	/*border: 2px solid black*/
-	min-width: 200px
+	width: 157px
+	max-width: 100%
 	margin: 0 auto
 	object-fit: contain
 
 .project-textbox 
 	/*border: 2px solid black*/
+	padding-top: 20px
+	line-height: 1.6
 
 
 .innerproject-textbox 
@@ -139,7 +149,7 @@
 	min-height: 830px
 	max-height: 100%
 	margin: 5px auto
-	padding: 5px
+	padding: 20px
 
 .experiencebox 
 	/*border: 2px solid black*/
@@ -172,6 +182,7 @@
 	min-height: 425px
 	max-height: 100%
 	margin: 30px auto
+	padding: 20px
 
 	@include for-phone-only
 		margin: 0
@@ -236,12 +247,13 @@
 .interestbox 
 	min-height: 500px
 	max-height: 100%
+	padding: 20px
 
 .educationbox 
 	min-height: 300px
 	max-height: 100%
 	margin: 30px auto
-	padding: 3px
+	padding: 20px
 
 .ed-head 
 	height: 150px
@@ -276,7 +288,7 @@
 
 
 .ed-small-box
-	margin: 10px auto
+	margin: 10px 100px
 
 
 .ed-pic 
@@ -289,7 +301,7 @@
 	/*border: 2px solid black*/
 	width: 230px
 	max-width: 100%
-	margin-left: 170px
+	margin-left: 40px
 	margin-top: 20px
 	line-height: 20px
 
@@ -297,7 +309,7 @@
 	/*border: 2px solid black*/
 	width: 300px
 	max-width: 100%
-	margin-left: 120px
+	margin-left: 70px
 	margin-top: 20px
 	line-height: 20px
 
