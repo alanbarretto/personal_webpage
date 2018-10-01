@@ -15,25 +15,20 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:200,400" >
 		<link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display|Roboto|Rosario|Work+Sans" rel="stylesheet">
 
-
 		<!-- Custom Styles for this webpage -->
 		<link rel="stylesheet" type="text/css" href="CSS/app.css">
 		<!-- Devicons -->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 		<!--Fontawesome icons -->
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 	</head>
 <body id="page-top">
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light">
-		<div class="empty-box">
-		</div>
 		<div class="eagle-box">
-			<a class="navbar-brand" href="#about" id="eagle">
+			<a class="navbar-brand class-nav-link" href="#hero" id="eagle">
 				<img src="images/bird.png">
 			</a>
 		</div>
@@ -42,28 +37,33 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#about" id="select">About <span class="sr-only">(current)</span></a>
+				<li class="nav-item-active eagle2">
+					<a class="navbar-brand class-nav-link" href="#hero" id="eagle">
+						<img src="images/bird.png">
+					</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#skills" id="select">Skills</a>
+					<a class="nav-link class-nav-link" href="#hero" id="welcome">Welcome <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#projects" id="select">Projects</a>
+					<a class="nav-link class-nav-link" href="#tech-skills" id="skills">Skills</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#history" id="select">Work History</a>
+					<a class="nav-link class-nav-link" href="#udacity" id="projects">Projects</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#education" id="select">Education</a>
+					<a class="nav-link class-nav-link" href="#history" id="work-history">Work History</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#interests" id="select">Personal Interests</a>
+					<a class="nav-link class-nav-link" href="#school" id="education">Education</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link class-nav-link" href="#interests" id="personal-interests">Personal Interests</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<section id="about">
+	<section id="hero">
 		<div class="hero">
 			<div class="row">
 				<div class="col-12 blackbox">
@@ -88,13 +88,12 @@
 			</div>
 			<article class="introbox ib-3">
 				<p>Hi, I'm Alan, and welcome to my site! I love to code!  Check out my "Featured Projects" section to see the
-				various work I've done.  Then hop on over to the "Personal Interests" section and join me on my 
-				outdoor adventures.  Thanks for visiting!</p>
+				various work I've done. Be well and live your best life. Thanks for visiting!</p>
 			</article>
 		</div>
 	</section>
 	<!-- Skills Section -->
-	<section id="skills">
+	<section id="tech-skills">
 		<div class="greybox skillsgreybox">
 			<div class="project-title">
 				<header class="title-text">
@@ -247,7 +246,7 @@
 	</section>
 
 	<!-- Featured Projects Section -->
-	<section id="projects">
+	<section id="udacity">
 		<div class="greybox projectbox" >
 			<div class="project-title">
 				<header class="title-text">
@@ -381,20 +380,103 @@
 							</div>
 						</div>
 					</div>
-
-
+					<div class="row">
+						<div class="col-4 projectpicture">
+							<div class="innerprojectpicture">
+								<img class="img-circle" src="images/cars.jpg">
+							</div>
+						</div> 
+						<div class="col-8 project-textbox">
+							<div class="innerproject-textbox">
+								<h5>Item Catalog App</h5>
+							</div>
+							<div class="projectbreak"></div>
+							<div class="innerproject-textbox">
+								<p>A fun web app where users can log in, post their used cars for sale, and manage their content.
+									Built with Python and Flask.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 projectpicture">
+							<div class="innerprojectpicture">
+								<img class="img-circle" src="images/catalog1.jpg">
+							</div>
+						</div> 
+						<div class="col-8 project-textbox">
+							<div class="innerproject-textbox">
+								<h5>Multi-User Blog App</h5>
+							</div>
+							<div class="projectbreak"></div>
+							<div class="innerproject-textbox">
+								<p>Users can create an account with a password, then post blogs, "like" others' posts, 
+								    and delete their own content. Built with Python and Google App Engine.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 projectpicture">
+							<div class="innerprojectpicture">
+								<img class="img-circle" src="images/swiss3.jpg">
+							</div>
+						</div> 
+						<div class="col-8 project-textbox">
+							<div class="innerproject-textbox">
+								<h5>Swiss Tournament Results</h5>
+							</div>
+							<div class="projectbreak"></div>
+							<div class="innerproject-textbox">
+								<p>A Python module that uses the PostgreSQL database to keep track of 
+									players and matches in a Swiss style game tournament.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 projectpicture">
+							<div class="innerprojectpicture">
+								<img class="img-circle" src="images/movie2.jpg">
+							</div>
+						</div> 
+						<div class="col-8 project-textbox">
+							<div class="innerproject-textbox">
+								<h5>Movie Trailer Website</h5>
+							</div>
+							<div class="projectbreak"></div>
+							<div class="innerproject-textbox">
+								<p>A static web page built with Python allowing 
+						visitors to browse their stored movies and watch the trailers.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 projectpicture">
+							<div class="innerprojectpicture">
+								<img class="img-circle" src="images/ubuntu.jpg">
+							</div>
+						</div> 
+						<div class="col-8 project-textbox">
+							<div class="innerproject-textbox">
+								<h5>Linux Server Configuration</h5>
+							</div>
+							<div class="projectbreak"></div>
+							<div class="innerproject-textbox">
+								<p>Configure a baseline Linux server and secure it from attack vectors.
+								 Install and configure a database server, and deploy an existing web app onto it.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Experience Section -->
-	<section id="experience">
+	<section id="history">
 			
 		<div class="greybox experiencegreybox">
 			<div class="project-title">
 				<header class="title-text">
-					<h3>Work Experience</h3>
+					<h3>Work History</h3>
 				</header>
 				
 			</div>
@@ -413,7 +495,6 @@
 							<h5>Walmart Global eCommerce</h5>
 							<div id="walmartbreak"></div>
 							<p>San Bruno, CA | <span>September 2017 to Present</span></p>
-							
 						</div>
 						<div class="workdescription">
 							<h6>Junior Analyst</h6>
@@ -425,6 +506,24 @@
 						</div>
 					</div>	
 				</div>
+				<div class="col-12 eb-2">
+					<div class="textworkbox">
+						<div class="worktitle">
+							<h5>Walmart Global eCommerce</h5>
+							<div id="walmartbreak"></div>
+							<p>San Bruno, CA | <span>September 2017 to Present</span></p>
+						</div>
+						<div class="workdescription">
+							<h6>Junior Analyst</h6>
+							<div class="innerworkbreak"></div>
+							<p>As part of the Ethics and Compliance Team, I check if suppliers are compliant with
+							product safety testing and/or hazmat documentation. I correspond with hundreds of suppliers regarding
+							Federal and State rules and regulations, and I shut down products from the website for non-compliance.
+							</p>
+						</div>
+					</div>
+				</div>
+
 			</div>
 			<div class="workbreak"></div>
 			<div class="row exp-rowbox">
@@ -436,6 +535,23 @@
 						</div>
 					</div>
 					<div class="col-8 experiencebox">
+						<div class="textworkbox">
+							<div class="worktitle">
+								<h5>Google</h5>
+								<div id="googlebreak"></div>
+								<p>Mountain View, CA | <span>October 2015 to September 2017</span></p>
+							</div>
+							<div class="workdescription">
+								<h6>Compliance Analyst </h6>
+								<div class="innerworkbreak"></div>
+								<p>I tested the weekly sales reports from the Global Sales Team for compliance with 95% accuracy.  
+								I'm most proud of improving our efficiency by 25% by automating certain manual processes using Google Apps Script (Javascript) in Google Sheets.
+								</p>
+							</div>
+						</div>	
+						
+					</div>
+					<div class="col-12 eb-2">
 						<div class="textworkbox">
 							<div class="worktitle">
 								<h5>Google</h5>
@@ -478,8 +594,23 @@
 									and careful attention to detail, I was able to 
 								 consistently recover 30% of the losses per month (a high rate of recovery).</p>
 							</div>
-						</div>	
-						
+						</div>
+					</div>
+					<div class="col-12 eb-2">
+						<div class="textworkbox">
+							<div class="worktitle">
+								<h5>JP Morgan Chase</h5>
+								<div id="morganbreak"></div>
+								<p>Bonifacio Global City, Philippines | April 2014 to May 2015</p>
+							</div>
+							<div class="workdescription">
+								<h6>Fraud Recovery Specialist </h6>
+								<div class="innerworkbreak"></div>
+								<p>I investigated fraud claims made by cardholders. With the use of numerous software tools 
+									and careful attention to detail, I was able to 
+								 consistently recover 30% of the losses per month (a high rate of recovery).</p>
+							</div>
+						</div>
 					</div>
 				
 			</div>
@@ -488,7 +619,7 @@
 	</section>
 
 	<!-- Education -->
-	<section>
+	<section id="school">
 		<div class="greybox educationbox">
 			<div class="project-title">
 				<header class="title-text">
@@ -565,25 +696,22 @@
 						<div>
 							<img src="images/trailhead2.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>It was a cold morning as I began my hike up Mt Whitney... one of my greatest adventures ever!</p>
 							</figcaption>
-							
 						</div>
 					</div>
 				</div>
-		
 				<div>
 					<div class="img-captionbox">
 						<div>
 							<img src="images/top.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>I found a rock to rest on at the top of Yosemite Falls.</p>
 							</figcaption>
-							
 						</div>
 					</div>
 				</div>
@@ -594,24 +722,22 @@
 						<div>
 							<img src="images/whitney2.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>2 hours into my hike through the Mountaineers Route of Mt Whitney.</p>
 							</figcaption>
-							
 						</div>
 					</div>
 				</div>
-				 <div>
+				<div>
 					<div class="img-captionbox">
 						<div>
 							<img src="images/tent2.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>Relaxing in my tent at a Yosemite campsite.</p>
 							</figcaption>
-							
 						</div>
 					</div>
 				</div>
@@ -622,21 +748,19 @@
 						<div>
 							<img src="images/missionpeak3.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>Climbing Mission Peak in Fremont with my brother and sister-in-law.</p>
 							</figcaption>
-							
 						</div>
 					</div>
 				</div>
-		
 				<div>
 					<div class="img-captionbox">
 						<div>
 							<img src="images/bigtree2.jpg">
 						</div>
-						<div>
+						<div class="small-pic">
 							<figcaption>
 								<p>Walking like an Egyptian on a fallen log at Yosemite Falls.</p>
 							</figcaption>
@@ -656,9 +780,11 @@
 						<div>
 							<img src="images/whitneymountain2.jpg">
 						</div>
-						<figcaption>
-							<p>Return to Mount Whitney</p>
-						</figcaption>
+						<div class="small-pic">
+							<figcaption>
+								<p>Return to Mount Whitney</p>
+							</figcaption>
+						</div>
 					</div>
 				</div>
 				<div>
@@ -666,9 +792,11 @@
 						<div>
 							<img src="images/mountrainier2.jpg">
 						</div>
-						<figcaption>
-							<p>Mount Rainier</p>
-						</figcaption>
+						<div class="small-pic">
+							<figcaption>
+								<p>Mount Rainier</p>
+							</figcaption>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -678,9 +806,11 @@
 						<div>
 							<img src="images/denali2.jpg">
 						</div>
-						<figcaption>
-							<p>Denali</p>
-						</figcaption>
+						<div class="small-pic">
+							<figcaption>
+								<p>Denali</p>
+							</figcaption>
+						</div>
 					</div>
 				</div>
 				<div>
@@ -688,9 +818,11 @@
 						<div>
 							<img src="images/everest2.jpg">
 						</div>
-						<figcaption>
-							<p>Everest</p>
-						</figcaption>
+						<div class="small-pic">
+							<figcaption>
+								<p>Everest</p>
+							</figcaption>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -715,8 +847,7 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-></script>
+<script src="js/jq.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
 		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
 		crossorigin="anonymous"></script>
