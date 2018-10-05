@@ -1,15 +1,29 @@
-.eagle-box 
+
+
+
+.eagle-box
 	width: 60px
 	max-width: 100%
 	/*float: left*/
-	border: 2px solid black
+	/*border: 2px solid black/*
 	margin: 0 30px
 
-.empty-box
-	border: 2px solid black
-	height: 50px
-	width: 230px
-	max-width: 100%
+
+	@include reverse-collapsed-nav
+		display: none
+
+
+.eagle2
+	margin: 0 50px
+
+	@include nav-without-eagle
+		display: none
+
+#welcome, #skills, #projects, #work-history, #education, #personal-interests
+	margin: 12px 30px
+
+	@include wide-nav
+		font-size: 18px
 
 .nav-container 
 	margin: 0 auto
@@ -24,15 +38,29 @@
 	width: 100%
 	bottom: 0
 
-#navbarNavAltMarkup 
-	width: 900px
-	margin: 10px auto
-	border: 2px solid black
+
 
 .navbar-nav
-	width: 935px
+	width: 1200px
 	max-width: 100%
 	/*margin: 0 auto*/
+	margin: 0 auto
+
+	@include nav-without-eagle
+		margin: 0 auto
+		width: 950px
+		max-width: 100%
 
 .navbar
 	background-color: #ffcb30
+
+.foot
+	padding-top: 30px
+	padding-left: 50px
+	color: #ffcb30
+
+
+.hover-class
+	&:hover
+		color: white
+
