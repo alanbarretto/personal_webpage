@@ -292,6 +292,9 @@
 
 		@include for-phone-only
 			font-size: 22px
+
+		@include between-phone-and-tablet-portrait
+			font-size: 25px
 	h5
 		margin: 20px 0 10px 130px
 
@@ -358,15 +361,29 @@
 		p
 			font-size: 1.1em
 
+		@include for-phone-only
+			width: 400px
+			max-width: 100%
+			margin: 0 auto
+			line-height: 1.6
+			font-size: .8em
+
 .small-pic
 	figcaption
-		width: 400px
+		width: 450px
 		max-width: 100%
 		margin: 0 auto
 		line-height: 1.2
 
 		p
-			font-size: 1.1em
+			font-size: 1em
+
+			@include for-phone-only
+				width: 400px
+				max-width: 100%
+				margin: 5px auto
+				font-size: .8em
+				line-height: 1.6
 
 
 .halfdome-hero
