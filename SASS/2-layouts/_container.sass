@@ -12,7 +12,7 @@
 		width: 100%
 
 .hero
-	margin: 30px 0
+	margin-bottom: 30px
 	/*border: 2px solid black*/
 	min-height: 550px
 	max-height: 100%
@@ -59,7 +59,12 @@
 	max-width: 100%
 	margin: 0 auto
 
+.ib-1
+	h5
+		font-size: 24px
 
+		@include for-tablet-portrait-down
+			font-size: 18px
 
 .ib-2 
 	text-align: center
@@ -68,19 +73,46 @@
 	margin: 0
 	padding-top: 0
 
+	@include for-phone-only
+		margin: 10px 0
+	a
+		@include for-phone-only
+			margin: 0 20px
+
+
 .ib-3 
-	color: #ffcb30
-	width: 70%
+	/*color: #ffcb30*/
+	width: 780px
+	max-width: 100%
 	margin: 10px auto
 	padding-bottom: 20px
 	/*border: 2px solid black*/
 	line-height: 1.6
 
 	p
-		font-size: 17px
+		font-size: 18px
 		text-align: justify
 		text-justify: inter-word
 		text-indent: 50px
+
+		@include for-phone-only
+			width: 400px
+			max-width: 100%
+			margin: 0 auto
+			font-size: .8em
+
+		@include between-phone-and-tablet-portrait
+			width: 500px
+			max-width: 100%
+			margin: 0 auto
+			font-size: 1em
+
+		@include between-tablet-and-landscape
+			margin: 10px auto
+			width: 580px
+			max-width: 100%
+			font-size: 1em
+
 
 .contactbox 
 	width: 230px
@@ -89,6 +121,9 @@
 	color: #ffcb30
 	border: 2px solid black
 
+.proj-rowbox
+	@include for-tablet-portrait-down
+		display: none
 
 .projectbox 
 	min-height: 575px
@@ -110,6 +145,9 @@
 	min-width: 100px
 	/*border: 2px solid black*/
 
+	@include for-tablet-portrait-down
+		padding: 20px 0
+
 .innerprojectpicture
 	/*border: 2px solid black*/
 	width: 157px
@@ -117,18 +155,34 @@
 	margin: 0 auto
 	object-fit: contain
 
+	@include for-phone-only
+		width: 100px
+
 .project-textbox 
 	/*border: 2px solid black*/
 	padding-top: 20px
 	line-height: 1.6
+
+	@include for-tablet-portrait-down
+		padding: 20px 0
+
 
 
 .innerproject-textbox 
 	/*border: 2px solid black*/
 	margin: 5px
 
+	@include for-tablet-portrait-down
+		padding-top: 15px
+
+	@include for-phone-only
+		padding-top: 0
+
 	p 
 		font-size: 14px
+
+		@include for-tablet-portrait-down
+			font-size: 12px
 
 .iconbox 
 	min-width: 50px
@@ -154,6 +208,13 @@
 .experiencebox 
 	/*border: 2px solid black*/
 	/*background-color: #3DA5D9*/
+	@include for-phone-only
+		display: none
+
+	@include between-phone-and-tablet-portrait
+		min-height: 250px
+		margin: 20px 0
+
 
 .innerexp-box 
 	/*border: 2px solid black*/
@@ -167,6 +228,9 @@
 	/*border: 2px solid black*/
 	margin: 10px auto
 
+	@include for-phone-only
+		display: none
+
 
 .textworkbox 
 	height: 250px
@@ -178,16 +242,17 @@
 	/*background-color: #3DA5D9*/
 	line-height: 1.6
 
+	@include for-phone-only
+		width: 400px
+		margin: 0 auto
+
+
 .skillsgreybox 
 	min-height: 425px
 	max-height: 100%
 	margin: 30px auto
 	padding: 20px
 
-	@include for-phone-only
-		margin: 0
-		width: 576px
-		background: red
 
 .worktitle 
 	padding: 5px
@@ -207,7 +272,6 @@
 	/*border: 2px solid black*/
 	height: 125px
 	max-height: 100%
-	text-indent: 10%
 	/*background-color: #3DA5D9*/
 
 	p
@@ -216,15 +280,26 @@
 		text-justify: inter-word
 		text-indent: 50px
 
+		@include for-phone-only
+			font-size: 12px
+
 .title-text 
 	/*border: 2px solid black*/
 
-	h3 
-		margin: 10px 40px
+	h3
+		margin: 10px 60px
 		padding-top: 10px
+
+		@include for-phone-only
+			font-size: 22px
+	h5
+		margin: 20px 0 10px 130px
 
 .nextbox 
 	margin: 20px 10px 0 10px
+
+	@include for-phone-only
+		display: none
 
 .skillsbox 
 	height: 120px
@@ -255,6 +330,14 @@
 	margin: 30px auto
 	padding: 20px
 
+.eb-2
+	@include for-phone-only
+		min-height: 300px
+		margin: 10px 0
+
+	@include bigger-than-phone
+		display: none
+
 .ed-head 
 	height: 150px
 	max-height: 100%
@@ -265,21 +348,32 @@
 		text-align: center
 
 .personalhero
-	border: 2px solid black
+	/*border: 2px solid black*/
 
 	figcaption
-		width: 650px
+		width: 670px
 		max-width: 100%
 		margin: 0 auto
+
+		p
+			font-size: 1.1em
+
+.small-pic
+	figcaption
+		width: 400px
+		max-width: 100%
+		margin: 0 auto
+		line-height: 1.2
+
+		p
+			font-size: 1.1em
 
 
 .halfdome-hero
 	max-width: 1000px
 	margin: 20px auto
-	border: 2px solid black
+	/*border: 2px solid black*/
 
-.flex-pics
-	display: flex
 
 .img-captionbox
 	/*border: 2px solid black*/
@@ -313,9 +407,19 @@
 	margin-top: 20px
 	line-height: 20px
 
+.for-phone-only-box
+	@include bigger-than-phone
+		display: none
 
+.tablet-portrait-down-projects
+	@include for-tablet-portrait-up
+		display: none
 
+.pro-box
+	color: #001A5C
 
+	&:hover
+		color: #2D79E6
 
 
 
