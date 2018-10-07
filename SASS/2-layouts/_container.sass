@@ -105,7 +105,7 @@
 			width: 500px
 			max-width: 100%
 			margin: 0 auto
-			font-size: 1em
+			font-size: .9em
 
 		@include between-tablet-and-landscape
 			margin: 10px auto
@@ -298,7 +298,7 @@
 .nextbox 
 	margin: 20px 10px 0 10px
 
-	@include for-phone-only
+	@include for-tablet-portrait-down
 		display: none
 
 .skillsbox 
@@ -408,7 +408,7 @@
 	line-height: 20px
 
 .for-phone-only-box
-	@include bigger-than-phone
+	@include for-tablet-portrait-up
 		display: none
 
 .tablet-portrait-down-projects
