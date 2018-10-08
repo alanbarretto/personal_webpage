@@ -52,15 +52,19 @@
 		max-width: 100%
 
 .navbar
-	background-color: #ffcb30
+	background-color: $yellow
 
 .foot
 	padding-top: 30px
 	padding-left: 50px
-	color: #ffcb30
+	color: $yellow
+
+	@include for-phone-only
+		font-size: .7em
 
 
 .hover-class
 	&:hover
 		color: white
+		text-shadow: 2px 2px 4px $grey
 
