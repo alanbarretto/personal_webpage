@@ -1,19 +1,69 @@
-/* Mixins go here */
+// Mixins go here 
+
+@mixin for-tiny-screen
+	@media screen and (max-width: 442px)
+		@content
+
+@mixin between-tiny-and-phone
+	@media screen and (min-width: 443px) and (max-width: 576px)
+		@content
+
+@mixin bigger-than-tiny
+	@media screen and (min-width: 443px)
+		@content
 
 @mixin for-phone-only
-	@media (max-width: 576px)
+	@media screen and (max-width: 576px)
+		@content
+
+@mixin bigger-than-phone
+	@media screen and (min-width: 577px)
+		@content
+
+@mixin for-tablet-portrait-down
+	@media screen and (max-width: 768px)
 		@content
 
 @mixin for-tablet-portrait-up
-	@media (min-width: 577px) and (max-width: 768px)
+	@media screen and (min-width: 769px)
+		@content
+
+@mixin between-phone-and-tablet-portrait
+	@media screen and (min-width: 577px) and (max-width: 768px)
+		@content
+
+@mixin between-tablet-and-desktop
+	@media screen and (min-width: 769px) and (max-width: 1200)
 		@content
 
 @mixin for-tablet-landscape-up
-	@media (min-width: 900px) and (max-width: 1199px)
+	@media screen and (min-width: 900px) and (max-width: 1199px)
 		@content
 
 @mixin for-desktop-up
-	@media (min-width: 1200px)
+	@media screen and (min-width: 1200px)
 		@content
 
+@mixin nav-without-eagle
+	@media screen and (max-width: 1117px)
+		@content
+
+@mixin collapsed-nav
+	@media screen and (max-width: 991px)
+		@content
+
+@mixin reverse-collapsed-nav
+	@media screen and (min-width: 992px)
+		@content
+
+@mixin wide-nav
+	@media screen and (min-width: 1180px)
+		@content
+
+@mixin between-tablet-and-landscape
+	@media screen and (min-width: 769px) and (max-width: 991px)
+		@content
+
+=vendor_prefx()
+	
 
