@@ -1,30 +1,43 @@
-#eagle
-	margin: 0 auto
+@import "3-modules/mixins"
+@import "3-modules/variables"
 
-#navbarNavAltMarkup 
-	width: 1000px
-	margin: 10px auto
+#eagle
+	margin: 0
+
+
 
 #select
 	margin: 0 30px
 
 #fullname
-	font-family: "Work Sans"
+	font-family: "Lora"
 	font-size: 4em
 	font-weight: 400
 	text-transform: uppercase
 	color: #ffcb30
 
-#alanpic 
-	height: 180px
-	max-height: 100%
-	width: 180px
-	max-width: 100%
-	border: .5rem solid #232426
-	margin: 0 auto
+	@include for-tiny-screen
+		font-size: 1.5em
+
+	@include between-tiny-and-phone
+		font-size: 2em
+
+	@include between-phone-and-tablet-portrait
+		font-size: 2.5em
+
+	@include between-tablet-and-landscape
+		font-size: 3em
+
+
+
 
 #skillstext 
 	width: 80px
 	max-width: 100%
 	margin: 0 auto
 	border: 2px solid black
+
+#ateneo
+	p
+		width: 100px
+		margin-left: 30px
