@@ -1,4 +1,5 @@
 @import "3-modules/mixins"
+@import "3-modules/variables"
 
 
 
@@ -63,8 +64,14 @@
 	h5
 		font-size: 24px
 
-		@include for-tablet-portrait-down
-			font-size: 18px
+		@include for-tiny-screen
+			font-size: 1em
+
+		@include between-tiny-and-phone
+			font-size: 1.2em
+
+		@include between-phone-and-tablet-portrait
+			font-size: 1.3em
 
 .ib-2 
 	text-align: center
@@ -95,7 +102,13 @@
 		text-justify: inter-word
 		text-indent: 50px
 
-		@include for-phone-only
+		@include for-tiny-screen
+			width: 300px
+			max-width: 100%
+			margin: 0 auto
+			font-size: .8em
+
+		@include between-tiny-and-phone
 			width: 400px
 			max-width: 100%
 			margin: 0 auto
@@ -372,7 +385,7 @@
 	figcaption
 		width: 450px
 		max-width: 100%
-		margin: 0 auto
+		margin: 10px auto
 		line-height: 1.2
 
 		p
@@ -388,7 +401,7 @@
 
 .halfdome-hero
 	max-width: 1000px
-	margin: 20px auto
+	margin: 20px auto 10px auto
 	/*border: 2px solid black*/
 
 
