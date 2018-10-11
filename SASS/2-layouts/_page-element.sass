@@ -1,50 +1,74 @@
+@import "3-modules/mixins"
+@import "3-modules/variables"
+
+
 .linebreak 
-	background-color: #001A5C
+	background-color: $navy_blue
 	height: 3px
 	margin: 0 auto
 	max-width: 95%
 
+	@include for-phone-only
+		height: 1px
+		margin-bottom: 20px
+
 .workbreak
-	background-color: grey
+	background-color: $grey
 	height: 1px
 	margin: 10px auto
 	max-width: 87%
 
+	@include for-phone-only
+		display: none
+
+	@include between-phone-and-tablet-portrait
+		display: none
+
+
+
+.innerworkbreak
+	background-color: $grey
+	height: 1px
+	margin: 5px auto
+	max-width: 100%
+
+
+
 .projectbreak 
-	background-color: grey
+	background-color: $grey
 	height: 1px
 	margin: 5px 0
 	max-width: 80%
 
 #walmartbreak
-	background-color: grey
+	background-color: $grey
 	height: 1px
 	margin: 5px 0
 	max-width: 50%
 
 #googlebreak
-	background-color: grey
+	background-color: $grey
 	height: 1px
 	margin: 5px 0
 	max-width: 60%
 
 #morganbreak
-	background-color: grey
+	background-color: $grey
 	height: 1px
 	margin: 5px 0
 	max-width: 65%
 
 
 .school-linebreak 
-	background-color: #001A5C
+	background-color: $navy_blue
 	height: 1px
 	margin: 10px auto
-	max-width: 60%
+	max-width: 100%
 
 
 .img-circle 
 	border-radius: 50%
-	border: 2px solid #fe7f2d
+	border: 2px solid $orange
 
 .schoologo 
 	height: 100px
@@ -58,7 +82,7 @@
 		max-width: 100%
 		height: auto
 
-/* Icons */
+
 .fab 
 	margin: 5px 10px
 
@@ -70,3 +94,22 @@
 	margin: 0 auto
 
 
+
+.navbar-toggler
+	margin-left: 50px
+
+#alanpic 
+	height: 180px
+	max-height: 100%
+	width: 180px
+	max-width: 100%
+	border: .5rem solid $navy_blue
+	margin: 0 auto
+
+.halfdome-hero
+	img
+		width: 100%
+
+.iconbox
+	img
+		width: 50px
